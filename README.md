@@ -1,2 +1,2 @@
 # BelOilTest
-.NET Core, C, React
+.NET Core, C#, React
