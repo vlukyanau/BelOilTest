@@ -1,0 +1,24 @@
+{
+  "profiles": {
+    "Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "",
+      "environmentVariables": {
+         "ASPNETCORE_ENVIRONMENT": "Development",
+         "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.SpaProxy"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7141;http://localhost:5045"
+    }
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:29632",
+      "sslPort": 44321
+    }
+  }
+}

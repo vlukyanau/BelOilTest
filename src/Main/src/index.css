@@ -1,0 +1,63 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    padding: 1rem;
+    letter-spacing: 1px;
+    background-color: #f7f6f9;
+    color: #7b774e;
+}
+
+.btn,
+.btn:active,
+.btn:hover {
+    border: none;
+}
+
+
+.icon {
+    cursor: pointer;
+}
+
+.errorMsg {
+    color: #f21e08;
+    background: #fff0f0;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.order-form {
+    margin: 1rem auto;
+    width: 45%;
+}
+
+.modal-dialog .order-form {
+    width: 100%;
+}
+
+.submit-btn {
+    margin-top: 1rem;
+    letter-spacing: 1px;
+}
+
+.filters .heading {
+    font-size: 1.5rem;
+    color: #cac483;
+}
+
+.filters .filter {
+    margin: 4px 4px 4px 4px;
+}
+
+.done {
+    color: green;
+}
+
+.fail {
+    color: red;
+}
